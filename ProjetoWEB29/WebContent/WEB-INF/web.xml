@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <javaee:env-entry>
+    <javaee:description>use mysql para banco MySQL ou postgresql para PosgtgreSQL</javaee:description>
+    <javaee:env-entry-name>banco-de-dados</javaee:env-entry-name>
+    <javaee:env-entry-type>java.lang.String</javaee:env-entry-type>
+    <javaee:env-entry-value>mysql</javaee:env-entry-value>
+  </javaee:env-entry>
+</web-app>
